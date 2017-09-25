@@ -18,3 +18,5 @@ q
 git reset -hard HEAD~1
 git log
 git reset -hard 050764
+git add readme.txt lisence.txt
+git commit -m "understand how stage works"
