@@ -1,0 +1,13 @@
+git --global user.name "colin"
+git --global user.email "colincheunggg@gmail.com"
+git init
+git add readme.txt
+git commit -m "wrote a readme file"
+git add file1.txt
+git add file2.txt file3.txt
+git commit -m "add 3 files"
+git status
+git add readme.txt
+git status
+git commit -m "add distributed"
+git status
