@@ -27,3 +27,8 @@ git status
 git diff HEAD -- readme.txt
 git add readme.txt
 git commit -m "git trackes changes rather than files"
+git add readme.txt
+git checkout -- readme.txt
+git add readme.txt
+git checkout -- readme.txt
+git reset HEAD readme.txt
