@@ -20,3 +20,10 @@ git log
 git reset -hard 050764
 git add readme.txt lisence.txt
 git commit -m "understand how stage works"
+git add readme.txt
+git status
+git commit -m "git trackes changes"
+git status
+git diff HEAD -- readme.txt
+git add readme.txt
+git commit -m "git trackes changes rather than files"
