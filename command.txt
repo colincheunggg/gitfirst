@@ -12,3 +12,9 @@ git add readme.txt
 git status
 git commit -m "add distributed"
 git status
+git log
+git log --pretty=oneline
+q
+git reset -hard HEAD^
+git log
+git reset -hard 2d3527
