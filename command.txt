@@ -76,3 +76,22 @@ git add readme.txt
 git commit -m "branch dev"
 git checkout master
 git merge --no-ff -m "no fast forward" dev
+
+stash and bug fix
+git stash
+git checkout master
+git checkout -b bugfix
+git add readme.txt
+git commit -m "bugfix bug fixed"
+git checkout master
+git merge --no-ff -m "merge with bugfix" bugfix
+git checkout dev
+git stash list
+git stash apply stash@{0}
+git add readme.txt
+git commit -m "dev work finished"
+git stash drop stash@{0}
+git checkout master
+git merge dev
+git add readme.txt
+git commit -m "merge with dev"
