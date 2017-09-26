@@ -7,3 +7,4 @@ you and me
 line1
 line2
 no fastforward
+line4
