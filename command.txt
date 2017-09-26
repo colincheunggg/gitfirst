@@ -98,3 +98,14 @@ git commit -m "merge with dev"
 
 force delete a branch which is not merged
 git branch -D feature1
+
+tag
+git tag v1.0
+git tag v1.1 4b15ac
+git tag -a v2.0 -m "add zhibo" 4b15ac
+git tag
+git show v1.0
+git push origin v1.0
+git push origin --tags
+git tag -d v1.1
+git push origin :refs/tags/v1.1
