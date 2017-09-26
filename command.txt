@@ -58,3 +58,14 @@ git merge dev
 git branch -d dev
 git branch
 git log --pretty:oneline
+
+merge
+git checkout -b feature1
+git add readme.txt
+git commit -m "you and me"
+git checkout master
+git add readme.txt
+git commit -m "you & me"
+git merge feature1
+git add readme.txt
+git commit -m "confilicts fixed"
