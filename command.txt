@@ -41,3 +41,6 @@ git bash:ssh-genkey -t rsa -C "youremail"
 add id_rsa.pub to github
 git remote add origin git@github.com:youremail/yourrepository.git
 git push origin -u master
+
+clone repository from remote
+git clone git@github.com:youremail/remoterepository.git
