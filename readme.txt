@@ -9,3 +9,4 @@ line2
 no fastforward
 line3
 line4
+bug fixed
