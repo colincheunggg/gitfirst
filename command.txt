@@ -69,3 +69,10 @@ git commit -m "you & me"
 git merge feature1
 git add readme.txt
 git commit -m "confilicts fixed"
+
+no fast forward
+git checkout -b dev
+git add readme.txt
+git commit -m "branch dev"
+git checkout master
+git merge --no-ff -m "no fast forward" dev
