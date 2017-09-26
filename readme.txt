@@ -10,3 +10,5 @@ no fastforward
 line3
 line4
 bug fixed
+a bug need to fix immediately,but we havn't finished our work
+we finished our work
